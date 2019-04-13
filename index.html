@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JCI Team GR Patterns - Atoms</title>
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/global.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/glyphs.css" type="text/css" media="screen">
+	<!-- demo page styles -->
+	<link rel="stylesheet" href="css/demo.css">
+	<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>JCI Pattern Lab</h1>
+    </header>
+  	<div class="navbar top row">
+		<ul class="nav col">
+			<li class="active"><a href="index.html">Atoms</a></li>
+			<li class=""><a href="molecules.html">Molecules</a></li>
+			<li class=""><a href="organisms.html">Organisms</a></li>
+			<li class=""><a href="template_home.html">Prototype</a></li>
+		</ul>
+	</div>
+	<!-- BLAKE'S CODE -->
+    <div class="content">
+      <h4>Primary Colors</h4>
+      <div class="guest swatch">
+        <p>#b2dc68</p>
+		<p class="hide">.guest</p>
+      </div>
+      <div class="swatch editor">
+        <p>#39b4e5</p>
+		<p class="hide">.editor</p>
+      </div>
+      <div class="swatch author">
+        <p>#ff8113</p>
+		<p class="hide">.author</p>
+      </div>
+      <div class="swatch reviewer">
+        <p>#7463dd</p>
+		<p class="hide">.reviewer</p>
+      </div>
+      <div class="swatch alert">
+        <p>#d60e50</p>
+		<p class="hide">.alert</p>
+      </div>
+      <div class="swatch default">
+        <p class="bright_text">#333333</p>
+		<p class="hide bright_text">.default</p>
+      </div>
+      <div class="clear"></div>
+      <h4>Secondary Colors</h4>
+      <div class="swatch guest_alt">
+        <p>#e8f2d0</p>
+		<p class="hide">.guest_alt</p>
+      </div>
+      <div class="swatch editor_alt">
+        <p>#a6ddf3</p>
+		<p class="hide">.editor_alt</p>
+      </div>
+      <div class="swatch author_alt">
+        <p>#ffc18c</p>
+		<p class="hide">.author_alt</p>
+      </div>
+      <div class="swatch reviewer_alt">
+        <p>#dbd6f3</p>
+		<p class="hide">.reviewer_alt</p>
+      </div>
+      <div class="swatch guest_light">
+        <p>#f4fae8</p>
+		<p class="hide">.guest_light</p>
+      </div>
+      <div class="swatch alt">
+        <p>#b4b4b4</p>
+		<p class="hide">.alt</p>
+      </div>
+      <div class="clear"></div>
+	  <p><small>Each color has a class that can be applied to any element to add the color as a background color. Add "_text" to the end of any class name to change the text color. Add "_hover" to the end of any class name to change the text color on hover.</small></p>
+      <hr>
+      <h4>Typefaces</h4>
+      <p class="light">Primary font light: "Titillium Web Light", "Helvetica", "Arial", sans-serif;</p>
+      <p>Primary font: "Titillium Web Regular", "Helvetica", "Arial", sans-serif;</p>
+      <p class="semi">Primary font semibold: "Titillium Web Semibold", "Helvetica", "Arial", sans-serif;</p>
+      <p class="bold">Primary font bold: "Titillium Web Bold", "Helvetica", "Arial", sans-serif;</p>
+      <hr>
+      <h4>Headings</h4>
+      <h1>Heading Level 1</h1>
+      <h2>Heading Level 2</h2>
+      <h3>Heading Level 3</h3>
+      <h4>Heading Level 4</h4>
+      <h5>Heading Level 5</h5>
+      <hr>
+      <h4>Paragraph</h4>
+      	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+      <hr>
+      <h4>Blockquote</h4>
+	  <div class="row">
+	      <blockquote class="col s4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</blockquote>
+	</div>
+	<p><small>The blockquote element will be used on the How-To page popup elements.</small></p>  
+      <hr>
+	  
+	  <!-- KAYLEE'S CODE -->
+	  
+      <h4>Logotype</h4>
+	  	<a class="col s2 navbar-brand logotype alt_text" href="#/">Journal of<br>Critical Incidents</a>
+        <img class="logo" src="images/logo2.png">
+		<p><small>Logotypes will be used in navigation and footer elements.</small></p>
+      <hr>
+	  <h4>Icons</h4>
+	  	<img class="icon" alt="editor" src="images/editor.png">
+	  	<img class="icon" alt="author" src="images/author.png">
+	  	<img class="icon" alt="reviewer" src="images/reviewer.png">
+	  	<img class="icon" alt="email" src="images/email.png">
+	  	<img class="icon" alt="sms" src="images/sms.png">
+		<button type="button" id="badgebutton" onClick="clickME()">Add to Badge</button>
+		<div class="badge alert bright_text"><a id="clicks"></a></div>
+		<p><small>Icons will be used when logged in. The badge will be used in the navigation bar.</small></p>
+	  <hr>
+      <h4>Small Icons</h4>
+	  	<img class="smallicon" alt="download" src="images/download.gif">
+		<img class="smallicon" alt="upload" src="images/upload.gif">
+		<img class="smallicon" alt="save" src="images/save.gif">
+		<img class="smallicon" alt="random" src="images/random.gif">
+		<img class="smallicon" alt="delete" src="images/delete.gif">
+	  	<img class="smallicon noinvert" alt="close" src="images/close.png">
+		<p><small>Small icons are used inside form elements, i.e. buttons, input fields and popups.</small></p>
+      <hr>
+      <h4>Images</h4>
+        <img class="bodyimages" src="https://placeholdit.imgix.net/~text?txtsize=35&txt=374×195&w=374&h=195">
+        <img class="headerlarge" src="https://placeholdit.imgix.net/~text?txtsize=107&txt=1280×519&w=1280&h=519">
+        <img class="headersmall" src="https://placeholdit.imgix.net/~text?txtsize=55&txt=1160×220&w=1280&h=221">
+		<p><small>Images will be used in cols4 divs or in headers. The two larger images do not have rounded corners, only the smaller on does.</small></p>
+      <hr>
+	  <h4>Content Frames</h4>
+      <div class="row">
+      	        <div class="guest frame1 col s6"></div>
+      </div>
+      <div class="row">
+        <div class="guest frame2 col s6"></div>
+      </div>
+	  <p><small>Content frames house text elements on each page and are color-coded by their user base. The smaller content frame is for single line of text. The larger frame is for two lines of text: Main heading on top and subhead on bottom.</small></p>
+	  <hr>
+	  <h4> Vertical Rule Line</h4>
+	  <div class="vr"></div>
+       <p><small>This line is only used on the homepage to divide the different sets of information. </small></p>
+	  <hr>
+	  <h4>Dashboard Nav</h4>
+      	<div class="dashboardnav">
+            <ul class="row dashnav">
+                <li class="homeicon col s1 active nomargin"> <a href="#/"><img id="dashboardicon" src="images/homeicon.png"></a></li>
+                <li class="editor col s2 nomargin"><a href="#/">Editor</a></li>
+            </ul>
+    	</div>
+	   <p><small>The dashboard nav will only be shown when a user is logged in. Depending on how many roles the user has determines how many tabs there will be shown. Ex: The editor will receive all 3 tabs while the author will receive only the author tab and the reviewer tab.</small></p>
+	  <hr>
+	  <!-- BLAKE'S CODE -->
+	  
+      <h4>Nav Elements</h4>
+	  	<div class="navbar row">
+			<ul class="nav col s5">
+				<li class=""><a href="#/">Archive</a></li>
+				<li class=""><a href="#/">How To</a></li>
+				<li class=""><a href="#/">About</a></li>
+				<li class=""><a href="#/">Login</a></li>
+			</ul>
+			<div class="searchdiv col s3">
+				<form class="search-container" action="">
+				  <input id="search-box" type="text" class="search-box" placeholder="Search..." name="q" />
+				  <label for="search-box"><span class="glyphicon glyphicon-search search-icon"></span></label>
+				</form>
+			</div>	
+		</div>
+        <p><small>This main navbar will appear on both guest viewers and logged-in viewers.</small></p>		
+	  <hr>
+	  <h4>Buttons</h4>
+	  	<button class="guest" type="button">Login</button>
+	  	<button class="author" type="button">Submit</button>
+	  	<button class="alert" type="button">Reset Password</button>
+	  	<button class="editor" type="button">Publish</button>
+	  	<button class="reviewer" type="button">Review</button>
+         <p><small>The bottons name and colors will resemble to that of a specific role: Author, Reviewer, and Editor. Ex: Guest users will be linked to green buttons, author to orange buttons, and red for notifications and error. </small></p>
+	  <hr>
+	  
+	  <!-- ANDREA'S CODE -->
+	  
+	  <h4>Columns</h4>	    
+  	  <div class="row">
+  		  <div class="col s4 colbg alt">
+			  <h4>Col S4</h4>
+  		  </div>
+  		  <div class="col s4 colbg guest_alt">
+			  <h4>Col S4</h4>
+  		   </div>
+  		   <div class="col s2 colbg alt">
+			   <h4>Col S2</h4>
+  		   </div>
+  	</div>
+	<div class="row">
+		<div class="col s8 colbg guest_alt">
+			<h4>Col S8</h4>
+		</div>
+		<div class="col s2 colbg alt">
+			<h4>Col S2</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col s5 colbg alt">
+			<h4>Col S5</h4>
+		</div>
+		<div class="col s3 colbg guest_alt">
+			<h4>Col S3</h4>
+		</div>
+		<div class="col s2 colbg alt">
+			<h4>Col S2</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col s6 colbg guest_alt">
+			<h4>Col S6</h4>
+		</div>
+		<div class="col s4 colbg alt">
+			<h4>Col S4</h4>
+		</div>
+	</div>										
+	  <p><small>The 10-column grid creates a flexible system for content arrangement.</small></p>
+	  <div class="row">
+		  <div class="col s1 colbg alt">
+			  <h4>Col S1</h4>
+		  </div>
+		  <div class="col s1 colbg guest_alt">
+			  <h4>Col S1</h4>
+		  </div>
+		  <div class="col s1 colbg alt">
+			  <h4>Col S1</h4>
+		  </div>
+		  <div class="col s1 colbg guest_alt">
+			  <h4>Col S1</h4>
+		  </div>
+		  <div class="col s1 colbg alt">
+			  <h4>Col S1</h4>
+		  </div>
+		  <div class="col s1 colbg guest_alt">
+			  <h4>Col S1</h4>
+		  </div>
+		  <div class="col s1 colbg alt">
+			  <h4>Col S1</h4>
+		  </div>
+		  <div class="col s1 colbg guest_alt">
+			  <h4>Col S1</h4>
+		  </div>
+		  <div class="col s1 colbg alt">
+			  <h4>Col S1</h4>
+		  </div>
+		  <div class="col s1 colbg guest_alt">
+			  <h4>Col S1</h4>
+		  </div>
+	  </div>
+	  <hr>
+	  
+	  <!-- AUDREY'S CODE -->
+	  
+	  <h4>Input Fields</h4>
+	<div id="RightColumn">
+    <input type="text" placeholder="somebody@example.com" class="regular"/>
+	</div>
+	  <hr>
+	  <h4>Forms</h4>
+	  <h5> Checkboxes</h5>
+
+		<input type="checkbox" id="chk1" />
+		<label title="Unchecked state" for="chk1">Unchecked</label>
+
+<br>
+		<input type="checkbox" checked="checked" id="chk2" />
+		<label title="Checked state" for="chk2">Checked</label>
+		
+		<h5>Upload Buttons</h5>
+<input type="file" class="author">
+<br>
+
+
+	  <h5> Input Labels</h5>
+  	<div id="RightColumn">
+      <span class="input">Input Label:</span> <input type="text" placeholder="" class="regular" />
+  	</div>
+	
+	<h5>Dropdowns</h5>
+	<select multiple placeholder="Compact multiple select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false, "useCustomScroll": false, "multipleCompactStyle": true}'>
+		<option value="v2">Option 1</option>
+		<option value="v3">Option 2</option>
+		<option value="v4">Option 3</option>
+		<option value="v5">Option 4</option>
+		<option value="v6">Option 5</option>
+	</select>
+	  <hr>
+    </div>
+    <footer class="guest_alt">
+      <p><small>Copyright Team GR &copy;2016 All rights reserved.</small></p>
+    </footer>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/custom2.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jcf.js"></script>
+	<script src="js/jcf.file.js"></script>
+	<script src="js/jcf.radio.js"></script>
+	<script src="js/jcf.range.js"></script>
+	<script src="js/jcf.number.js"></script>
+	<script src="js/jcf.select.js"></script>
+	<script src="js/jcf.checkbox.js"></script>
+	<script src="js/jcf.scrollable.js"></script>
+<script>
+	$(function() {
+		jcf.replaceAll();
+	});
+</script>	   
+</body>
+</html>

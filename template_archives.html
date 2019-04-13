@@ -1,0 +1,112 @@
+<!doctype html>
+<html  lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Template</title>
+    <!--[if lt IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html.js"></sript>
+    <![endif]-->
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300' rel='stylesheet' type='text/css'>	
+    <link rel="stylesheet" href="css/global.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/glyphs.css" type="text/css" media"screen">
+</head>
+<body class="loggedout">
+	<div class="pagewidth toppad">
+        <header>
+        	  	<div class="navbar row">
+		<a class="col s2 navbar-brand logotype alt_text" href="template_home.html">Journal of<br>Critical Incidents</a>
+		<ul class="nav col s5">
+			<li class="active"><a href="template_archives.html">Archive</a></li>
+			<li class=""><a href="template_how_to.html">How To</a></li>
+			<li class=""><a href="template_about.html">About</a></li>
+			<li class=""><a id="togglelogin" href="#/">Login</a></li>
+		</ul>
+		<div class="searchdiv col s3">
+			<form class="search-container" action="">
+			  <input id="search-box" type="text" class="search-box" placeholder="Search..." name="q" />
+			  <label for="search-box"><span class="glyphicon glyphicon-search search-icon"></span></label>
+			</form>
+		</div>	
+	</div>
+	  <div class="loginbar" style="display:none">
+		    <form>
+			  <input type="text" class="regular login" placeholder="username" />
+			  <input type="password" class="regular login" placeholder="password"/>
+			  <a href="template_dashboard.html"><button class="guest" type="button">Login</button>
+			</form>
+			<a class="loginlink" href="template_create_account.html"><p>Don't have an account? Create one now.</p></a>  
+	  </div>	
+		  <div class="row flush">
+	          <div class="col s3 searchdrop white">
+				  <div class="searchresult">
+					  <div class="result guest"></div>
+	                  <h4 class="searchheading">How to Page</h4>
+	                  <p class="searchsummary">The process of writing and submitting an incident, and the process to publishing.</p>
+				  </div>
+				  <div class="searchresult">
+					  <div class="result guest"></div>	  
+	                  <h4 class="searchheading">Create an Account</h4>
+	                  <p class="searchsummary">Make an account to submit critical incidents and get published.</p>
+				  </div>
+				  <div class="searchresult">
+					  <div class="result author"></div>	  
+	                  <h4 class="searchheading">Rules of Submission</h4>
+	                  <p class="searchsummary">The journal follows strict rules when compiling incidents for publishing.</p>
+				  </div>
+				  <div class="searchresult">
+					  <div class="result reviewer"></div>	  
+	                  <h4 class="searchheading">Reviewing Incidents</h4>
+	                  <p class="searchsummary">The journal follows strict review guidelines when sorting through incidents for publishing.</p>
+				  </div>	  
+	          </div>
+			</div>
+        </header>
+        <div class="content">
+            <img class="responsive" src="images/glasses.jpg" alt="reading glasses and book">
+        </div>
+        <div class="content padded">
+        <div class="row">
+        <div class="side">
+            <div class="guest frame1">
+				<h1 class="title">JCI 2014: INCIDENTS</h1>
+            </div>
+		</div>
+		<div class="row flush">	
+			<div class="side_nav col s2 guest_light">
+	             <ul>
+		             <li class=""><a href="#/">2015</a></li>
+		             <li class="active"><a href="#/">2014</a></li>
+		             <li class=""><a href="#/">2013</a></li>
+		             <li class=""><a href="#/">2012</a></li>
+		             <li class=""><a href="#/">2011</a></li>
+		             <li class=""><a href="#/">2010</a></li>
+		             <li class=""><a href="#/">Earlier</a></li>
+					</ul> 
+             <div class="guest">
+                <h3 class="title">Search</h3>
+            </div>
+            <form class="archivesearch">
+			    <input type="text" placeholder="Title" class="regular"/>
+			    <input type="text" placeholder="Author" class="regular"/>
+			    <input type="text" placeholder="Date Published" class="regular"/>
+			    <input type="text" placeholder="Keywords" class="regular"/>
+			  	<button class="guest" type="button">Search</button>
+    		</form>
+    	</div>
+		<div class="col s8 nopadding alt">
+			<object class="pdfviewer" data="files/jci2014.pdf" type="application/pdf">
+			  <p>Alternative text - include a link <a href="files/jci2014.pdf">to the PDF!</a></p>
+			</object>
+		</div>	  
+    </div>      
+        </div>
+	</div>	
+        <footer class="guest row flush">
+        	<div class="col s5 footerleft"><a href="https://www.sfcr.org"><img class="logo footericon" src="images/logo2.png"><p>SOCIETY FOR CASE RESEARCH</p></a></div>
+	    	<div class="col s5 footerright"><p><small><a class="shortcut" href="index.html">&copy;</a>2016. All Rights Reserved.</small></p></div>
+        </footer>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

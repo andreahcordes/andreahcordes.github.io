@@ -1,0 +1,63 @@
+<!doctype html>
+<html  lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+	<title>Template</title>
+    <!--[if lt IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html.js"></sript>
+    <![endif]-->
+    <link rel="stylesheet" href="css/global.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/glyphs.css" type="text/css" media="screen">
+</head>
+
+<body>
+	<div class="pagewidth">
+        <header>
+        	  	<div class="navbar row">
+		<a class="col s2 navbar-brand" href=""><img src="images/logo.png" alt="logotype"></a>
+		<ul class="nav col s5">
+			<li class=""><a href="#/">Archive</a></li>
+			<li class=""><a href="#/">How To</a></li>
+			<li class=""><a href="#/">About</a></li>
+			<li class=""><a id="togglelogin" href="#/">Login</a></li>
+		</ul>
+		<div class="searchdiv col s3">
+			<form class="search-container" action="">
+			  <input id="search-box" type="text" class="search-box" placeholder="Search..." name="q" />
+			  <label for="search-box"><span class="glyphicon glyphicon-search search-icon"></span></label>
+			</form>
+		</div>	
+	</div>
+	  <div class="loginbar" style="display:none">
+		    <form>
+			  <input type="text" class="regular login" placeholder="username" />
+			  <input type="password" class="regular login" placeholder="password"/>
+			  <button class="guest" type="button">Login</button>
+			</form>
+			<a class="loginlink" href="#/"><p>Don't have an account? Create one now.</p></a>  
+	  </div>	
+		  <div class="row">
+	          <div class="col s2 searchdrop white" style="display:none">
+	                  <h4 class="searchheading">How to Page</h4>
+	                  <p class="searchsummary">The process of writing and submitting an incident, and the process to publishing.</p>
+	                  <hr>
+	                  <h4 class="searchheading">Create an Account</h4>
+	                  <p class="searchsummary">Make an account to submit critical incidents and get published.</p>
+	                  <hr>
+	                  <h4 class="searchheading">Rules of Submission</h4>
+	                  <p class="searchsummary">The journal follows strict rules when compiling incidents for publishing.</p>
+	          </div>
+			</div>
+        </header>
+        <div class="content">
+        </div>
+        <footer class="guest row">
+        	<div class="col s5 footerleft"><a href="https://www.sfcr.org"><img class="logo footericon" src="images/logo2.png"><p>SOCIETY FOR CASE RESEARCH</p></a></div>
+	    	<div class="col s5 footerright"><p><small>&copy;2015. All Rights Reserved.</small></p></div>
+        </footer>
+    </div>
+    <script src=""></script>
+</body>
+</html>
+
